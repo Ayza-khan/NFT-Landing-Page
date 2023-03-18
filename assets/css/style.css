@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Rubik:wght@500&display=swap");
+@font-face {
+  font-family: "diloworld";
+  src: url(../fonts/EricaOne-Regular.ttf);
+}
+body {
+  font-family: 'Gaegu', cursive;
+  overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Quicksand", sans-serif; */
+} 
+.navbar__section {
+  background-image: url(../CatAssets/Assets/Banner.png ); 
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  z-index: unset;
+}
+.navbar__section nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 10;
+}
+.header-logo {
+  position: fixed;
+  z-index: 9999999;
+  width: 60px;
+    transform: translate(-50%, 0);
+    top: 10px;
+    left: 50%;
+}
+.header-logo2 {
+  position: fixed;
+  z-index: 9999999;
+  width: 300px;
+    transform: translate(-60%, 0);
+    top: -65px;
+    left: 60%;
+}
+.nav-link {
+  color: #000000 !important;
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.nav-link:hover {
+  transform: translateY(-3px);
+  color: rgb(0, 0, 0) !important;
+  transition: all .3s;
+}
+.nav-link2 i {
+  color: #0a041b;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 0px 14px 0px 14px;
+}
+.nav-link2 i:hover {
+  transform: translateY(-3px);
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+}
+.butt__text{
+  font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    color: white;
+    /* text-shadow: 0 16px #ebf358, 0 -8px #ebf358; */
+    text-shadow: 0 8px #ebf358, 0 13px #13389f,
+    0 -8px #ebf358,   0 8px #13389f;
+    /* text-shadow: 0 8px blue, 0 13px yellow,
+    0 -8px blue,   0 8px yellow; */
+    font-size: 140px;
+}
+.banner__content h4{
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 8px #ebf358, 0 13px #13389f, 
+    0 -8px #ebf358  ;
+    font-size: 50px;
+     
+}
+.paragraph__banner {
+  font-family: 'DynaPuff', cursive;
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 30px;
+  color: #2d2a2a; 
+  text-align: center;
+  width: 30%;
+}
+.banner__content {
+  padding-top: 9rem;
+  position: relative;
+}
+
+
+/***** Intro Story section *****/
+.intro__story__section {
+  background-image: url(../CatAssets/Assets/OurStoryBackground.png); 
+  background-size: 100% 100%;  
+  z-index: 1;
+}
+.overlap{
+  top: -200px;
+  position: relative; 
+}
+.intro__story__section h1 {
+  font-family: 'DynaPuff', cursive;
+    font-size: 100px;
+    margin-top: 7rem;
+    letter-spacing: -2px;
+    line-height: 15px;
+    font-weight: bolder;
+    margin-bottom: 4rem;  
+  }
+.intro__story__section p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 24px 0;
+    opacity: 0.7; 
+}
+.img__container {
+  position: relative;
+} 
+.border__div {
+  position: absolute;
+  height: 90px;
+  width: 300px;
+  left: 12px;
+  top: 24px;
+  border-radius: 12px;
+  background-color: transparent; 
+  z-index: -1;
+} 
+.border__div2 {
+  position: absolute;
+  height: 90px;
+  width: 300px;
+  left: 12px;
+  top: 24px;
+  border-radius: 12px;
+  background-color: transparent;
+  z-index: -1;
+}
+/* .carouselMultiItemExample{
+  width: 100%;
+  height: auto;
+  z-index: unset;
+}
+.card  {
+  width: 400px;
+  height: 400px; 
+}
+.card img {
+  width: 400px;
+  height: 400px; 
+} */
+
+/** Utility Section **/
+
+.utility__section {
+  background-color: #fff;
+  padding: 2rem;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+.utility__text {
+  padding: 1rem;
+}
+.utility__text h1 {
+  font-size: 65px;
+  letter-spacing: -2px;
+  line-height: 58px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.utility__text{
+  font-size: 20px;
+  font-weight: 700;
+}
+#service-text{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+#service-img{
+padding: 5%;
+}
+.utxt{
+  font-family: 'Gaegu', cursive;
+  font-weight: bolder;
+  font-size: 100px;
+  color: #000000;
+}
+#service-text2{
+padding-top: 2%; 
+font-size: 20px;
+line-height: 22px;
+}
+ 
+
+
+/***** Game section *****/
+ 
+.game__section {
+  background-image: url(../CatAssets/Assets/GameBackground.png);
+  background-size: 100% 100%;
+  padding: 1rem 0 22rem;
+} 
+.game__section h1 {
+  font-size: 100px;
+  letter-spacing: -2px;
+  line-height: 58px;
+  color: #000000;
+  font-weight: 800;
+  font-family: "Gaegu"; 
+  margin: 4rem  ; 
+}
+.game__section p {
+  font-size: 20px;
+  padding: 0 4rem;
+  color: #ffffff;
+  font-weight: 700;
+} 
+.sec__img {
+  /* z-index: 1; */
+  z-index: unset;
+  width: 100%;
+  margin-top: -22rem;
+}
+.img__sec {
+  position: relative;
+  top: 10px;
+  height: 500px;
+  z-index: 5;
+  width: 1000px;
+} 
+
+/***** About Us *****/
+
+.about__uss {
+    position: relative;
+}
+.game-section-illustration {
+    position: absolute;
+    top: -250px;
+}
+.curvy__image {
+  width: 100%;
+}
+
+/***** FAq *****/
+.faq__section {
+  background-image: url(../CatAssets/Assets/FaqBackground.png);
+  /* height: 100vh; */
+  background-size: 100% 100%; 
+  width: 100%;
+}
+.faq__heading h1 {  
+    font-family: 'gaegu', cursive ;
+    margin-top: 6rem;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: bolder;
+
+}
+.faq__heading p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 2rem;
+    line-height: 30px;
+}
+
+
+
+/***** End FAq *****/
+
+
+
+/***** Our Team *****/
+.Our__Team {
+  width: 100%;
+  background-color: #fff;
+  padding: 12rem 2rem 0rem;
+}
+.team-01-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 300px;
+}
+.team-02-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 300px;
+}
+.team-03-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 300px;
+}
+.card__heading {
+  font-family: 'gaegu', cursive ; 
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.card__heading2 {
+  font-family: 'gaegu', cursive ;  
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+.card__info {
+  font-family: 'gaegu'  ; 
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.hakuna {
+  font-family: 'gaegu', cursive ;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.roadmaptxt{
+  font-family: 'gaegu', cursive ;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.text{
+  /* font-family: 'gaegu', cursive ; */
+  font-size: 200px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+
+
+/***** Roadmap *****/
+.section__roadmap {
+  width: 100%;
+  /* margin-top: -10px; */
+  /* padding: 4rem 0 2rem; */
+} 
+.card__roadmap {
+   padding-bottom: 10px; 
+}
+.card__roadmap2 {
+ padding-bottom: 10px; 
+}
+.card_r_info {  
+  font-size: 20px;
+  width: 80%;  
+}
+.card_r_info2 { 
+  /* font-weight: bold; */
+  font-weight:30px;
+  /* width: 80%; */
+}
+.card__position {
+  position: absolute;
+  width: 650px;
+  bottom: 20%;
+}
+.card__position2 {
+  position: absolute;
+  width: 650px;
+  top: 5%;
+  bottom: 20%;
+  right: -20px;
+}
+.position_absolute {
+  position: relative;
+} 
+
+
+/***** Footer section *****/ 
+.footer-logo {
+  width: 120px;
+  position: absolute;
+  /* top: 0; */
+  /* transform: translate(-100%, -100px);  */
+} 
+
+/* change start here */ 
+.accordion-item h2 {
+    font-family: 'gaegu', cursive ;
+    text-decoration: none;
+    font-size: 35px !important;
+}
+.accordion-button {
+  font-size: 35px;
+  font-weight: 700;
+}
+.accordion-button :focus {
+  box-shadow: none !important;
+  border: none;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: black;
+  box-shadow: none !important;
+  border-bottom: 3px solid yellow;
+} 
+.accordion-body p {
+  font-size: 20px;
+  color: black;
+} 
+  .accordion-item {
+    border-bottom: none;
+    margin-bottom: 12px;
+    box-shadow: 6px 6px 0 #cad92b;
+  } 
+  .accordion-button::after {
+    background-image: url();
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url();
+  } 
+.join__whislist {
+  margin: 4rem 0;
+} 
+.join__whislist a {
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #cad92b;
+}
+.join__whislist a:hover {
+  color: #cad92b;
+}
+.Our__Team i {
+  font-size: 24px;
+}
+.card_1, .card_2, .card_3, .card_4, .card_5 {
+  text-align: center;
+} 
+
+@media (max-width: 469px) {
+  .navbar__section{
+    background-size: 100% 100%;
+    height: 100vh;  
+    }
+    .butt__text {
+      font-size: 30px; 
+      text-shadow: rgb(235 243 88) 0px -3px, rgb(19 56 159) 0px -5px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 6px;
+    }
+    .banner__content h4{
+      font-size: 17px;  
+      line-height: 40px;
+      margin-top: -48px;
+      text-shadow: rgb(235 243 88) 0px -4px, rgb(19 56 159) 0px -6px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 5px;
+    } 
+    .paragraph__banner { 
+      font-size: 7px;  
+      line-height: 10px;  
+      margin-top: 2px;
+    }
+  .intro__story__section {
+  background-size: 100% 100%;  
+  height: 100vh;
+  }
+  .intro__story__section h1 {
+    margin-top: 54px;
+
+  }
+  .intro__story__section p {
+  font-size: 12px; 
+  }
+  .overlap{
+    top: -60px;
+    position: relative; 
+  }
+.Our__Team .hakuna{
+    font-size: 32px;
+}
+.faq__heading h1 {   
+      margin-top: 6rem; 
+      font-size: 32px;
+      font-weight: bolder;
+}
+.faq__heading p { 
+      font-size: 18px;
+      margin-top: 2rem;
+}
+.accordion-item h2 {
+    text-decoration: none;
+    font-size: 24px;
+}
+.accordion-body p {
+  font-size: 13px; 
+}
+.accordion-button {
+  font-size: 24px;
+  font-weight: 700;
+}
+.utxt{
+  font-size: 32px;
+  width: 100%;
+}
+.utility__text h1{
+  font-size: 32px;   
+}
+.utility__section { 
+  background-size: 100% 100%;
+  margin-top: 26rem;
+  padding: 1rem;
+}
+.utility__text {
+  padding: 0;
+  margin: 0;
+} 
+.utility__text{
+  font-size: 12px; 
+}
+#service-text{ 
+  font-size: 18px;
+}
+#service-text2{ 
+  font-size: 15px;
+  } 
+#utility{
+  font-size: 20px;
+  width: 100%; 
+}
+.game__section p {
+  font-size: 12px;
+  padding: 0 1rem;  
+}
+.game__section h1 {     
+  margin: 0rem;
+}
+.Our__Team {
+  top: 6685px; 
+}
+.roadmaptxt{
+  font-family: 'gaegu', cursive ;
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.footer-logo {
+  width: 50px;
+  position: absolute; 
+}
+footer p{
+  font-size: 10px;
+} 
+footer .nav-link2 i{  
+  font-size: 10px;
+  padding: 0px ;
+}
+footer .nav-item{
+  padding: 0px ;
+}
+.section__roadmap {
+  top: 8040px;
+}
+} 
+@media (max-width : 576px) {
+  .navbar__section {
+      background-size:  100% 100%;
+      height: 70vh;   
+  } 
+  .paragraph__banner {
+      width: 35%;
+  } 
+  .intro__story__section  { 
+    background-size:  100% 100%;
+    height: 100vh; 
+    padding: 1rem 0 5rem;
+  }
+  .overlap {
+    top: -120px;
+    position: relative;
+}
+
+  h1, .game__section h1, .intro__story__section h1 {
+      font-size: 55px;
+  }
+  p {
+      font-size: 17px;
+  }
+  .utility__text {
+      padding: 0px;
+  }
+  .utility__text h1 {
+      font-size: 36px;
+      line-height: 30px;
+  } 
+  .game__section p {
+      padding: 0px 0rem;
+  } 
+  .roller__text {
+      font-size: 100px;
+  }
+  .img__sec {
+    height: auto;
+    width: 100%;
+  } 
+  .sec__img {
+    margin-top: -6rem;
+  }
+  .game__section {
+    padding: 3rem 0 6rem;
+  }
+  .about__uss {
+    padding: 4rem 0 2rem;
+  }
+  .accordion a {
+    font-size: 17px !important;
+  }
+  .card__roadmap {
+    height: auto !important;
+  }
+  .faq__section {
+    padding: 3rem 0 3rem;
+  }
+  .Our__Team {
+    padding: 0 2rem 0;
+  }
+  .section__roadmap {
+    padding: 0rem 0 1rem;
+  }
+  .join__whislist {
+    margin: 4rem 0;
+    padding-bottom: 1rem;
+  } 
+  .join__whislist a {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+  }
+  .Our__Team { 
+    padding: 2rem 1rem 0rem;  
+
+  }
+  .team-01-profile  { 
+    height: 200px;
+  }
+  .team-02-profile { 
+    height: 200px;
+  }
+  .team-03-profile { 
+    height: 200px;
+  }  
+  .card__heading { 
+    font-size: 20px;  
+  }  
+  .card__info {  
+    font-size: 14px;  
+  } 
+  .accordion-button {
+    font-size: 22px;
+    font-weight: 700;
+} 
+} 
+@media only screen and  (max-width: 768px) {
+  .overlap{
+    top: -280px;
+  }  
+.intro__story__section h1 {
+    margin-top: 7rem; 
+    line-height: 32px;
+    /* line-height: 182px; */
+}
+  .navbar__section{
+    background-size: 100% 100%;  
+    }
+  .butt__text {
+    font-size: 32px; 
+    text-shadow: rgb(235 243 88) 0px -3px, rgb(19 56 159) 0px -5px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 6px;
+  }
+  .banner__content h4{
+    font-size: 18px;  
+    line-height: 40px;
+    margin-top: -48px;
+    text-shadow: rgb(235 243 88) 0px -4px, rgb(19 56 159) 0px -6px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 5px;
+  } 
+  .paragraph__banner { 
+    font-size: 10px;  
+    line-height: 10px;  
+    margin-top: 2px;
+  } 
+  .card__position {
+    width: auto;
+    position: relative;
+    left: 0;
+  }
+  .section__roadmap .hakuna{
+    font-size: 35px;
+  }
+  .section__roadmap p{
+    font-size: 18px;
+  }
+  .card__position2 {
+    width: auto;
+    position: relative;
+    right: 0;
+    /* height: max-content !important; */
+  }
+  .roadmaptxt{ 
+    font-size: 32px;
+    margin-top: 0;  
+  }
+}
+@media only screen and (min-width: 769px) and  (max-width : 1440px) {
+  .overlap{
+    /* top: -150px; */
+    position: relative; 
+  }
+  .butt__text {
+      /* font-size: 65px;  */
+      font-size: 85px; 
+      text-shadow: rgb(235 243 88) 0px -3px, rgb(19 56 159) 0px -5px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 6px;
+  }
+  .banner__content h4{
+      font-size: 38px;  
+      line-height: 40px;
+      text-shadow: rgb(235 243 88) 0px -4px, rgb(19 56 159) 0px -6px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 5px;
+  } 
+  .paragraph__banner { 
+    font-size: 22px;
+    line-height: 15px;
+    margin-top: -2px;
+  }
+  .utxt{
+    font-size: 28px;
+    width: 100%;
+  }
+  .carouselMultiItemExample{
+    width: 100%;
+    margin-right: 10px;
+    height: auto;
+    z-index: unset;
+  }
+  #service-img2{
+    height: 50%;
+    width: 50%;
+  }
+  .utility__text h1{
+    font-size: 52px;   
+  }
+  .utility__section { 
+    background-size: 100% 100%; 
+  }
+  .utility__text {
+    padding: 0;
+    margin: 0;
+  } 
+  .utility__text{
+    font-size: 20px; 
+  }
+  
+  #service-text{ 
+    font-size: 10px;
+  }
+  #service-text2{ 
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    line-height: 14px;
+    } 
+  #utility{
+    font-size: 15px;
+    width: 100%; 
+  }
+  .roadmaptxt{
+    font-family: 'gaegu', cursive ;
+    font-size: 52px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+  .div__right__img .img__right__div {
+    width: 150px;
+    height: 150px;
+  }
+  .div__left__img .img__left__div {
+    width: 150px;
+    height: 150px;
+  }
+  .div__left__img {
+    top: auto;
+    bottom: -140px;
+  }
+  .btm_img_1 {
+    width: 200px;
+  }
+  .btm_img_2 {
+    height: 200px;
+    top: -130px;
+    right: 0px;
+  }
+  .team-01-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 200px;
+}
+.team-02-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 200px;
+}
+.team-03-profile {
+    border-radius : 16px 36px 16px 36px;
+    height: 200px;
+}
+.card__heading { 
+  font-size: 25px;  
+}  
+.card__info {  
+  font-size: 18px;  
+} 
+}
+ @media only screen and (min-width: 1445px)  {
+  .butt__text {
+    font-size: 100px; 
+    text-shadow: rgb(235 243 88) 0px -3px, rgb(19 56 159) 0px -5px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 6px;
+  }
+  .banner__content h4{
+    font-size: 38px;  
+    line-height: 40px;
+    margin-top: -48px;
+    text-shadow: rgb(235 243 88) 0px -4px, rgb(19 56 159) 0px -6px, rgb(235 243 88) 0px 3px, rgb(19 56 159) 0px 5px;
+  } 
+  .paragraph__banner { 
+    font-size: 20px;  
+    line-height: 20px;  
+    margin-top: 2px;
+  }
+  
+} 
+
